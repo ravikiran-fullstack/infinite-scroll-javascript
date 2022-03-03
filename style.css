@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin: 1rem auto;
+  width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid red;
+}
+
+.imageDiv {
+  margin: 1rem;
+  width: 335px;
+}
