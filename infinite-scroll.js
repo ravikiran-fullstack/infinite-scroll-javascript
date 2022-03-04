@@ -6,6 +6,11 @@ window.onscroll = function (ev) {
   }
 };
 
+window.addEventListener("scroll", () => {
+  console.log("scrollY", window.screenY);
+  console.log("innerHeight", window.innerHeight);
+});
+
 function createAndAppendImages() {
   const container = document.querySelector(".container");
 
@@ -23,7 +28,7 @@ function createAndAppendImages() {
   container.append(div);
 }
 
-function createElement() {}
+// function createElement() {}
 
 function randomNumberGenerator() {
   return Math.ceil(100 + Math.random() * 899);
