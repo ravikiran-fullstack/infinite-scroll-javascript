@@ -6,10 +6,10 @@ window.onscroll = function (ev) {
   }
 };
 
-window.addEventListener("scroll", () => {
-  console.log("scrollY", window.screenY);
-  console.log("innerHeight", window.innerHeight);
-});
+// window.addEventListener("scroll", () => {
+//   console.log("scrollY", window.screenY);
+//   console.log("innerHeight", window.innerHeight);
+// });
 
 function createAndAppendImages() {
   const container = document.querySelector(".container");
